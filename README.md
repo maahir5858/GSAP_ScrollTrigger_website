@@ -13,7 +13,7 @@ This is a **ScrollTrigger GSAP** website built to learn & demonstrate the use-ca
 - ***ScrollTrigger Plugin***
 
 ## 🎥 Project Preview
-
+https://github.com/user-attachments/assets/5c0b0d76-e79a-4733-8823-9905fc7facd8
 
 ## 💬 Feedback
 
