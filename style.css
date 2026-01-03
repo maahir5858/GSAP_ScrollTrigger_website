@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: #ffbaf4;
+}
+#page2 {
+    height: 160%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: #ffbaf4;
+}
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: #ffbaf4;
+}
+#page4 {
+    height: 65%;
+    width: 100%;
+    background-color: #ffbaf4;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 3.5rem;
+    background-color: rgba(32, 32, 32, 0.519);
+    color: #ffbaf4;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#nav i {
+    scale: 1.7;
+    cursor: pointer;
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+#nav h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+#nav h3:hover,
+#nav i:hover {
+    color: #ff62e5;
+}
+
+#page1 h1 {
+    font-family: ultra;
+    font-weight: 400;
+    font-size: 26rem;
+    text-align: center;
+}
+
+
+#page2 video {
+    height: 80%;
+    width: 20%;
+    object-fit: cover;
+}
+#page2 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#page3 h1 {
+    color: rgb(32, 32, 32);
+    background-color: #ffbaf4;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30rem;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+#page4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#page4 #left,
+#page4 #middle,
+#page4 #right {
+    display: flex;
+    flex-direction: column;
+    color: rgb(32, 32, 32);
+    background-color: #ffbaf4;
+    margin-top: 5rem;
+}
+
+#page4 #left div,
+#page4 #middle div,
+#page4 #right div {
+    color: rgb(32, 32, 32);
+    background-color: #ffbaf4;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+#page4 #left div:hover,
+#page4 #middle div:hover,
+#page4 #right div:hover {
+    color: rgb(122, 122, 122);
+    scale: 1.02;
+}
+
+#page4 #heading {
+    font-size: 1.9rem;
+    font-family: ultra;
+    margin-bottom: 0.7rem;
+}
